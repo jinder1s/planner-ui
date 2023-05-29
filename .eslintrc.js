@@ -1,7 +1,7 @@
 const prettierrc = require('rc')('./prettier')
 
 module.exports = {
-  extends: ['react-app', 'react-app/jest'],
+  extends: ['react-app', 'react-app/jest', 'prettier'],
   plugins: ['prettier'],
   rules: {
     '@typescript-eslint/no-explicit-any': 2,
